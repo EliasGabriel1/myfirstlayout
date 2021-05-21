@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+h2.title {
+  margin: 12px 0px;
+}
+header > section > div.imgMall {
+  background: url("../../Imagens/img.PNG");
+  height: calc(90vh - 70px);
+  background-size: cover;
+  /*height: calc(87vh - 70px);
+  width: 250;
+  box-sizing: unset;*/
+}
+
+footer.footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer.footer > div.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+footer.footer > div.info > div.p-f {
+  margin: 20px 10px 5px 20px;
+}
+
+div.itens-info-about > p {
+  margin: 5px 0px 10px 0px;
+}
+footer.footer > div.descr-about {
+  display: grid;
+  grid-template-columns: 140vh 1fr;
+  margin-top: 50px;
+}
+
+footer.footer > div.descr-about > div.descontos-especiais {
+  margin-left: 10px;
+}
+
+footer.footer > div.descr-about > div.descontos-especiais > h2,
+footer.footer > div.descr-about > div.historia > h2 {
+  margin: 10px 0px 5px 0px;
+}
+footer.footer > div.descr-about > div.historia {
+  margin-left: 20px;
+}
+
+footer.footer
+  > div.descr-about
+  > div.descontos-especiais
+  > div.componentes-app
+  > div.img-app
+  > img {
+  height: calc(20vh - 70px);
+  background-size: cover;
+  margin: 5px 0px 5px 0px;
+}
+
+nav {
+  background: #1b1b1b;
+}
+
+section.pagament {
+  color: cyan;
+  background-color: black;
+}
+section.pagament > div.pagamentos > .item {
+  width: 135px;
+  height: 135px;
+  border-radius: 70%;
+  background-color: white;
+  margin: 50px;
+}
+
+section.pagament > div.pagamentos > .item > img {
+  margin-bottom: 15px;
+}
+div.group-prod-1 {
+  text-align: right;
+}
+
+div.group-prod-2 {
+  text-align: right;
+}
+
+section > div.propaganda-app {
+  background: url("../../Imagens/FAIXA-20210512-APP-DESKTOP-APPDAY.jpg");
+  height: calc(30vh - 85px);
+  background-size: cover;
+}
+
+section > div > div.item {
+  float: left;
+}
+
+div.pagamentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.pagamentos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.pagament > div.pagamentos > div.item,
+section.pagament > div.pagamentos-2 > div.item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: text-center;
+}
+
+section.pagament > div.pagamentos-2 > div.item > .label {
+  margin: 10px 0px 20px 0px;
+}
+
+section.pagament > div.pagamentos-2 > div.item > img {
+  height: calc(13vh - 12px);
+  margin-top: 20px;
+}
+
+section.pagament > div.pagamentos > div.item > img {
+  height: calc(15vh - 12px);
+  margin-top: 15px;
+}
+section.pagament > div.pagamentos > div.item > label {
+  margin-top: 5px;
+}
+
+div.pagamentos > div.item {
+  margin: 7px 0px 15px 0px;
+}
+
+div.item > label,
+div.item > img {
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+div.produtos > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 5px 20px 5px;
+}
+
+div.produtos > div > div.group-prod > div.prod > img {
+  width: 300px;
+}
+div.produtos > div > div.group-prod {
+  margin-bottom: 20px;
+}
+div.group-prod {
+  margin-left: 20px;
+}
+
+div.group-prod > div.produtos-group-prod-1 > div.prod-1 {
+  background-image: url(../../Imagens/handbag-1478814_640.webp);
+  box-sizing: border-box;
+  width: calc(60vh - 50px);
+  height: calc(50vh - 20px);
+}
+
+div.group-prod-1 > div.descr-desc > label,
+div.group-prod-1 > div.descr-desc > span,
+div.group-prod-1 > div.descr-desc > small {
+  background-color: rgb(28, 250, 250);
+  border-radius: 100px;
+  border: black;
+  font-size: 30px;
+}
+
+div.group-prod-1 > div.descr-desc > span {
+  bottom: 10%;
+  padding: 5px;
+  border-radius: 80% 60%;
+}
+
+div.group-prod-1 > div.descr-desc > label {
+  bottom: 10%;
+  padding: 10px;
+}
+
+div.group-prod > div.produtos-group-prod-2 > div.prod-2 {
+  background-image: url(../../Imagens/handbag-1478814_640.webp);
+  box-sizing: border-box;
+  width: calc(50vh - 100px);
+  height: calc(50vh - 100px);
+}
+
+div.carrossel-produtos {
+  width: calc(100vw - 42px);
+}
+
+div.group-prod-2 > div.descr-desc > label,
+div.group-prod-2 > div.descr-desc > span,
+div.group-prod-2 > div.descr-desc > small {
+  background-color: rgb(28, 250, 250);
+  border-radius: 100px;
+  border: black;
+  font-size: 30px;
+}
+
+div.group-prod-2 > div.descr-desc > span {
+  bottom: 10%;
+  padding: 5px 0px;
+  border-radius: 80% 60%;
+}
+
+div.group-prod-2 > div.descr-desc > label {
+  bottom: 10%;
+  padding: 10px 0px;
+}
+
+section.bolsas-destaques > div.destaques {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.bolsas-destaques {
+  background-color: #e6ecf9;
+  padding-top: 20px;
+}
+section.bolsas-destaques
+  > div.destaques
+  > div.bolsa-destaque-1
+  > div.img-bolsa-destaque,
+section.bolsas-destaques
+  > div.destaques
+  > div.bolsa-destaque-2
+  > div.img-bolsa-destaque {
+  height: calc(70vh - 70px);
+}
+section.bolsas-destaques
+  > div.destaques
+  > div.bolsa-destaque-1
+  > div.img-bolsa-destaque {
+  background: url(../../Imagens/briefcase-161032_1280.png);
+  margin: 10px 3px 10px 10px;
+  background-size: cover;
+}
+
+section.bolsas-destaques
+  > div.destaques
+  > div.bolsa-destaque-2
+  > div.img-bolsa-destaque {
+  background: url(../../Imagens/handbag-1478814_640.webp);
+  margin: 10px 10px 10px 3px;
+  background-size: cover;
+}
+/* div.prod>span,label{
+  visibility: hidden;
+} */
+
+div.faixa-form {
+  background-color: black;
+  padding-top: 10px;
+}
+
+div.descr {
+  margin: 15px 0px 10px 0px;
+}
+
+div.descr > label.value > span {
+  font-weight: bold;
+  margin: 8px 0px 3px 0px;
+}
+div.item > label {
+  display: flex;
+  justify-content: center;
+}
+
+section.email,
+div.group-email > form > button.button-email {
+  color: white;
+}
+
+section.email > div.group-email > form > button.button-email {
+  width: 30px;
+  border-radius: 7px;
+  background-color: rgb(0, 0, 0);
+  border-color: white;
+}
+section.email > div.group-email > form > button.button-email:hover {
+  color: cyan;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  background-color: black;
+}
+section.email > div.group-email {
+  padding-bottom: 20px;
+}
+div.group-email > form {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+form > label {
+  margin-top: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form > input {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: #000000;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #a0d18c;
+  color: #2d9fd9;
+}
+
+form > label,
+form > input {
+  margin-left: 10px;
+}
+
+form > button {
+  margin-left: 5px;
+  cursor: pointer;
+  width: 20px 20px;
+}
+.p-1 {
+  padding: 1px;
+  background-color: black;
+}
+
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .logo {
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 60px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li {
+  float: left;
+  background: #1b1b1b;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+nav ul li a:hover {
+  color: cyan;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+}
+
+nav ul ul li a:hover {
+  color: cyan;
+  box-shadow: none;
+}
+
+nav ul ul {
+  position: relative;
+  top: 70px;
+  border-top: 3px solid cyan;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+}
+nav ul ul ul {
+  border-top: none;
+}
+nav ul li:hover > ul {
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul li a {
+  line-height: 50px;
+}
+
+nav ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgba(0, 0, 0, 0, 0.3);
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+
+.fa-plus {
+  margin-left: 40px;
+  font-size: 15px;
+}
+.show,
+header > nav > input {
+  display: none;
+}
+.icon {
+  display: none;
+}
+
+div.text-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  label.icon {
+    left: 1600px;
+    top:0px;
+  }
+  nav .logo {
+    font-size: 100px;
+  }
+  header>nav>ul{
+    margin-top: 60px;
+  }
+  header>nav>ul>li>a{
+    margin-top: 10px;
+    font-size: 80px;
+    line-height: 135px;
+  }
+  header > section > div.imgMall {
+    background: url("../../Imagens/img.PNG");
+    height: 140vh ;
+    background-size: cover;
+    /*height: calc(87vh - 70px);
+  width: 250;
+  box-sizing: unset;*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  label.icon {
+    left: 1200px;
+    top:0px;
+  }
+  /* estilos */
+  header{
+    width: 3000vh;
+  }
+  header > section > div.imgMall {
+    background: url("../../Imagens/img.PNG");
+    height: 90vh ;
+    background-size: cover;
+    /*height: calc(87vh - 70px);
+  width: 250;
+  box-sizing: unset;*/
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header{
+    width: 170vh;
+  }
+  header > section > div.imgMall {
+    background: url("../../Imagens/img.PNG");
+    height: 90vh ;
+    background-size: cover;
+    /*height: calc(87vh - 70px);
+  width: 250;
+  box-sizing: unset;*/
+  }
+  section.pagament,section.container{
+    width:170vh
+  }
+  div.pagamentos-2{
+    width: 170vh;
+  }
+  
+  section.bolsas-destaques{
+    width: 1024px;
+    height: 620px;
+  }
+  section.carrossel-bolsas{
+    width: 170vh;
+  }
+  div.carrossel-produtos{
+    width: 170vh;
+  }
+  div.propaganda-app{
+    width: 170vh;
+    height: 120px;
+  }
+  div.faixa-form{
+    width:170vh;
+  }
+  footer.footer{
+    width: 170vh;
+  }
+}
+
+@media all and (max-width: 600px) {
+  div.produtos > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2.418379685610641vh 0.6045949214026602vh 2.418379685610641vh 0.6045949214026602vh;
+  }
+  div.group-prod > div.produtos-group-prod-1 > div.prod-1 {
+    background-image: url(../../Imagens/handbag-1478814_640.webp);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 1230px 1100px;
+    width: 148.85126964933494vh;
+    height:120.91898428053204vh
+  }
+  
+  header{
+    width: 300vh;
+  }
+  header > section > div.imgMall {
+    background: url("../../Imagens/img.PNG");
+    height: 150vh ;
+    background-size: cover;
+    /*height: calc(87vh - 70px);
+  width: 250;
+  box-sizing: unset;*/
+  }
+
+  section.bolsas-destaques{
+    width: 145.10278113663844vh;
+    height: 74.96977025392987vh;
+  }
+
+  section.bolsas-destaques>div.destaques>div.bolsas-destaques{
+    width: 84.64328899637243vh;
+    height: 60.45949214026602vh;
+  }
+
+  div.img-bolsa-destaque{
+    width: 84.64328899637243vh;
+    height: 72.55139056831922vh;
+  }
+
+  div.img-bolsa-destaque{
+    height: 72.55139056831922vh;
+  }
+
+  section.pagament,section.container{
+    width:300vh
+  }
+  .icon {
+    left: 145.10278113663844vh;
+    top:0px;
+  }
+  div.prod{
+    width: 500vh;
+  }
+
+  nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+  nav .logo {
+    padding-left: 30px;
+    width: 100%;
+  }
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  nav ul ul {
+    top: 70px;
+    position: static;
+  }
+  .show {
+    display: block;
+    color: white;
+    font-size: 2.176541717049577vh;
+    padding: 0 20px;
+    line-height: 70px;
+    cursor: pointer;
+  }
+  .show:hover {
+    color: cyan;
+  }
+  .icon {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 40px;
+    line-height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  nav ul li a:hover {
+    box-shadow: none;
+  }
+  .show + a,
+  ul {
+    display: none;
+  }
+  [id^="btn"]:checked + ul {
+    display: block;
+  }
+}
