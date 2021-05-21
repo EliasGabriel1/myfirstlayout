@@ -168,7 +168,7 @@ div.group-prod {
 }
 
 div.group-prod > div.produtos-group-prod-1 > div.prod-1 {
-  background-image: url(Imagens/handbag-1478814_640.webp);
+  background-image: url(../../Imagens/handbag-1478814_640.webp);
   box-sizing: border-box;
   width: calc(60vh - 50px);
   height: calc(50vh - 20px);
@@ -248,7 +248,7 @@ section.bolsas-destaques
   > div.destaques
   > div.bolsa-destaque-1
   > div.img-bolsa-destaque {
-  background: url(Imagens/briefcase-161032_1280.png);
+  background: url(../../Imagens/briefcase-161032_1280.png);
   margin: 10px 3px 10px 10px;
   background-size: cover;
 }
@@ -257,7 +257,7 @@ section.bolsas-destaques
   > div.destaques
   > div.bolsa-destaque-2
   > div.img-bolsa-destaque {
-  background: url(Imagens/handbag-1478814_640.webp);
+  background: url(../../Imagens/handbag-1478814_640.webp);
   margin: 10px 10px 10px 3px;
   background-size: cover;
 }
@@ -479,7 +479,7 @@ div.text-center {
     width: 3000vh;
   }
   header > section > div.imgMall {
-    background: url("Imagens/img.PNG");
+    background: url("../../Imagens/img.PNG");
     height: 90vh ;
     background-size: cover;
     /*height: calc(87vh - 70px);
@@ -493,7 +493,7 @@ div.text-center {
     width: 170vh;
   }
   header > section > div.imgMall {
-    background: url("Imagens/img.PNG");
+    background: url("../../Imagens/img.PNG");
     height: 90vh ;
     background-size: cover;
     /*height: calc(87vh - 70px);
@@ -536,7 +536,7 @@ div.text-center {
     margin: 2.418379685610641vh 0.6045949214026602vh 2.418379685610641vh 0.6045949214026602vh;
   }
   div.group-prod > div.produtos-group-prod-1 > div.prod-1 {
-    background-image: url(Imagens/handbag-1478814_640.webp);
+    background-image: url(../../Imagens/handbag-1478814_640.webp);
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: 1230px 1100px;
@@ -548,7 +548,7 @@ div.text-center {
     width: 300vh;
   }
   header > section > div.imgMall {
-    background: url("Imagens/img.PNG");
+    background: url("../../Imagens/img.PNG");
     height: 150vh ;
     background-size: cover;
     /*height: calc(87vh - 70px);
