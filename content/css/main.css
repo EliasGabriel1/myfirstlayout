@@ -13,7 +13,7 @@ h2.title {
   margin: 12px 0px;
 }
 header > section > div.imgMall {
-  background: url("Imagens/img.PNG");
+  background: url("../../Imagens/img.PNG");
   height: calc(90vh - 70px);
   background-size: cover;
   /*height: calc(87vh - 70px);
@@ -96,7 +96,7 @@ div.group-prod-2 {
 }
 
 section > div.propaganda-app {
-  background: url("Imagens/FAIXA-20210512-APP-DESKTOP-APPDAY.jpg");
+  background: url("../../Imagens/FAIXA-20210512-APP-DESKTOP-APPDAY.jpg");
   height: calc(30vh - 85px);
   background-size: cover;
 }
@@ -195,7 +195,7 @@ div.group-prod-1 > div.descr-desc > label {
 }
 
 div.group-prod > div.produtos-group-prod-2 > div.prod-2 {
-  background-image: url(Imagens/handbag-1478814_640.webp);
+  background-image: url(../../Imagens/handbag-1478814_640.webp);
   box-sizing: border-box;
   width: calc(50vh - 100px);
   height: calc(50vh - 100px);
